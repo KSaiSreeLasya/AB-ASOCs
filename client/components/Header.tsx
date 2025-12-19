@@ -69,6 +69,14 @@ export default function Header() {
                 {link.name}
               </Link>
             ))}
+            <a
+              href="https://www.ananthasoftware.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 bg-primary hover:bg-accent text-primary-foreground rounded-md transition-colors duration-200 text-sm lg:text-base font-medium"
+            >
+              Ananth Software
+            </a>
           </div>
 
           {/* Auth Buttons */}
@@ -77,9 +85,7 @@ export default function Header() {
               <Link
                 to="/login"
                 className="px-4 py-2 text-sm font-medium text-foreground/80 hover:text-tech-blue transition-colors duration-200"
-              >
-               
-              </Link>
+              ></Link>
             )}
             {user ? (
               <div className="relative">
@@ -143,6 +149,15 @@ export default function Header() {
                   {link.name}
                 </Link>
               ))}
+              <a
+                href="https://www.ananthasoftware.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 bg-primary hover:bg-accent text-primary-foreground rounded-md transition-colors duration-200 font-medium text-center"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Ananth Software
+              </a>
               {!user && (
                 <Link
                   to="/login"
