@@ -69,6 +69,14 @@ export default function Header() {
                 {link.name}
               </Link>
             ))}
+            <a
+              href="https://www.ananthasoftware.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 bg-primary hover:bg-accent text-primary-foreground rounded-md transition-colors duration-200 text-sm lg:text-base font-medium"
+            >
+              Ananth Software
+            </a>
           </div>
 
           {/* Auth Buttons */}
