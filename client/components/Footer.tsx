@@ -152,6 +152,8 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-muted-foreground text-sm">
               © {currentYear} ASOCSEMI. All rights reserved.
+              <br/>
+              Designed and Developed by Axisphere Mediaworx
             </div>
           </div>
         </div>
